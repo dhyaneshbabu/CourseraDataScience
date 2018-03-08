@@ -1,0 +1,18 @@
+R command
+
+class(plants)
+ dim(plants)
+ nrow(plants)
+ ncol(plants)
+  object.size(plants)
+  head(plants)
+  head(plants,20)
+  tail(plants,15)
+  summary(plants)
+  table(plants$Active_Growth_Period)
+  str(plants)
+  table(plants$Active_Growth_Period)
+   
+==========================================
+   sample(1:6, 4, replace = TRUE)
+   
