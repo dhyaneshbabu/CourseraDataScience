@@ -1,0 +1,31 @@
+One unique aspect of dplyr is that the same set of tools allow you to work with tabular data from a variety of sources,
+| including data frames, data tables, databases and multidimensional arrays. In this lesson, we'll focus on data frames, but
+| everything you learn will apply equally to other formats.
+
+> head(mydf)
+> dim(mydf)
+> head(mydf)
+ > library(dplyr)
+> packageVersion("dplyr")
+> cran <- tbl_df(mydf)
+
+ |============================                                                                                             |  23%
+| According to the "Introduction to dplyr" vignette written by the package authors, "The dplyr philosophy is to have small functions that each do one thing well."
+| Specifically, dplyr supplies five 'verbs' that cover most fundamental data manipulation tasks: select(), filter(), arrange(), mutate(), and summarize().
+
+...
+
+  |==============================                                                                                           |  25%
+| Use ?select to pull up the documentation for the first of these core functions.
+
+> 5:20
+ [1]  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20
+
+| That's the answer I was looking for.
+
+  |==========================================                                                                               |  35%
+| Normally, this notation is reserved for numbers, but select() allows you to specify a sequence of columns this way, which can save a bunch of typing. Use select(cran,
+| r_arch:country) to select all columns starting from r_arch and ending with country.
+
+> select(cran,r_arch:country)
+
