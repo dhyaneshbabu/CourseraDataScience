@@ -1,0 +1,36 @@
+| Package ‘readr’ loaded correctly!
+
+| Package ‘tidyr’ loaded correctly!
+
+| Package ‘dplyr’ loaded correctly!
+
+students
+  grade male female
+1     A    1      5
+2     B    5      0
+3     C    5      2
+4     D    5      5
+5     E    7      4
+
+| You are really on a roll!
+
+  |=====================                                                                                                                              |  15%
+| The first column represents each of five possible grades that students could receive for a particular class. The second and third columns give the number
+| of male and female students, respectively, that received each grade.
+
+...
+
+  |========================                                                                                                                           |  16%
+| This dataset actually has three variables: grade, sex, and count. The first variable, grade, is already a column, so that should remain as it is. The
+| second variable, sex, is captured by the second and third column headings. The third variable, count, is the number of students for each combination of
+| grade and sex.
+
+...
+
+  |===========================                                                                                                                        |  18%
+| To tidy the students data, we need to have one column for each of these three variables. We'll use the gather() function from tidyr to accomplish this.
+| Pull up the documentation for this function with ?gather.
+
+> ?gather
+
+| Your dedication is inspiring!
