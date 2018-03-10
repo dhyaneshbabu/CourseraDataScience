@@ -34,3 +34,71 @@ students
 > ?gather
 
 | Your dedication is inspiring!
+
+
+
+> gather(students,sex,count,-grade)
+   grade    sex count
+1      A   male     1
+2      B   male     5
+3      C   male     5
+4      D   male     5
+5      E   male     7
+6      A female     5
+7      B female     0
+8      C female     2
+9      D female     5
+10     E female     4
+========================================================================
+students3 %>%
+  gather(class, grade, class1:class5, na.rm = TRUE) %>%
+  print
+==========================
+students2 %>%
+  gather(  sex_class,count , -grade) %>%
+  separate( sex_class, c("sex", "class")) %>%
+  print
+=========================
+students3 %>%
+  gather(class, grade, class1:class5, na.rm = TRUE) %>%
+  spread(test , grade) %>%
+  print
+=================
+students3 %>%
+  gather(class, grade, class1:class5, na.rm = TRUE) %>%
+  spread(test, grade) %>%
+  ### Call to mutate() goes here %>%
+  mutate(class = parse_number(class)) 
+  print
+================================
+# Complete the chained command below so that we are
+# selecting the id, name, and sex column from students4
+# and storing the result in student_info.
+#
+student_info <- students4 %>%
+  select(id, name, sex) %>%
+  print
+================================
+# Add a call to unique() below, which will remove
+# duplicate rows from student_info.
+#
+# Like with the call to the print() function below,
+# you can omit the parentheses after the function name.
+# This is a nice feature of %>% that applies when
+# there are no additional arguments to specify.
+#
+student_info <- students4 %>%
+  select(id, name, sex) %>%
+  unique %>%
+  print
+
+  ===============================
+  # the 'Examples' section of ?separate to remember how the 'into'
+# argument should be phrased.
+#
+sat %>%
+  select(-contains("total")) %>%
+  gather(part_sex, count, -score_range) %>%
+  separate(part_sex, c("part", "sex")) %>%
+  print
+=================
