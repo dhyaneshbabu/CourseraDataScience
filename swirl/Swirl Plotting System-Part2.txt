@@ -1,0 +1,244 @@
+lll
+
+
+
+
+
+
+| The lattice plotting system is completely separate and independent of the base plotting system. It's an add-on package so it has to be
+| explicitly loaded with a call to the R function library. We've done this for you. The R Documentation tells us that lattice "is an
+| implementation of Trellis graphics for R. It is a powerful and elegant high-level data visualization system with an emphasis on
+| multivariate data."
+
+======================
+| Unlike base plotting, the lattice system does not have a "two-phase" aspect with separate
+| plotting and annotation. Instead all plotting and annotation is done at once with a single
+| function call.
+
+...
+
+  |=============                                                                                                                   |  10%
+| The lattice system, as the base does, provides several different plotting functions. These
+| include xyplot for creating scatterplots, bwplot for box-and-whiskers plots or boxplots, and
+| histogram for histograms. There are several others (stripplot, dotplot, splom and levelplot),
+| which we won't cover here.
+
+===========================================================================================================
+Colors swirl
+===========================================================================================================
+| Working_with_Colors. (Slides for this and other Data Science courses may be found at github
+| https://github.com/DataScienceSpecialization/courses/. If you care to use them, they must be downloaded as
+| a zip file and viewed locally. This lesson corresponds to 04_ExploratoryAnalysis/Colors.)
+
+...
+
+  |=                                                                                                   |   1%
+| This lesson is about using colors in R. It really supplements the lessons on plotting with the base and
+| lattice packages which contain functions that are able to take the argument col. We'll discuss ways to set
+| this argument more colorfully.
+
+...
+
+  |===                                                                                                 |   3%
+| Of course, color choice is secondary to your data and how you analyze it, but effectively using colors can
+| enhance your plots and presentations, emphasizing the important points you're trying to convey.
+==================================================================================================================
+|=================                                                                                   |  17%
+| Let's see what this means. Assign to the variable pal the output of a call to colorRamp with the single
+| argument, c("red","blue").
+
+> pal <- colorRamp(c("red","blue"))
+
+| You are quite good my frien
+========================================================
+|===========================================================================                        |  75%
+| Here's a picture of the palettes available from this package. The top section shows the sequential
+| palettes in which the colors are ordered from light to dark. The divergent palettes are at the bottom.
+| Here the neutral color (white) is in the center, and as you move from the middle to the two ends of
+| each palette, the colors increase in intensity. The middle display shows the qualitative palettes which
+| look like collections of random colors. These might be used to distinguish factors in your data.
+
+...
+
+  |============================================================================                       |  77%
+| These colorBrewer palettes can be used in conjunction with the colorRamp() and colorRampPalette()
+| functions. You would use colors from a colorBrewer palette as your base palette,i.e., as arguments to
+| colorRamp or colorRampPalette which would interpolate them to create new colors.
+
+...
+
+  |=============================================================================                      |  78%
+| As an example of this, create a new object, cols by calling the function brewer.pal with 2 arguments, 3
+| and "BuGn". The string "BuGn" is the second last palette in the sequential display. The 3 tells the
+| function how many different colors we want.
+
+
+
+=========================.
+
+  |=====                                                                                           |   5%
+| The ggplot2 package is an add-on package available from CRAN via install.packages(). (Don't worry,
+| we've installed it for you already.) It is an implementation of The Grammar of Graphics, an abstract
+| concept (as well as book) authored and invented by Leland Wilkinson and implemented by Hadley Wickham
+| while he was a graduate student at Iowa State. The web site http://ggplot2.org provides complete
+| documentation.
+
+=============================================
+
+
+  |=====================                                                                           |  22%
+| Yes, ggplot2 combines the best of base and lattice. It allows for multipanel (conditioning) plots (as
+| lattice does) but also post facto annotation (as base does), so you can add titles and labels. It uses
+| the low-level grid package (which comes with R) to draw the graphics. As part of its grammar
+| philosophy, ggplot2 plots are composed of aesthetics (attributes such as size, shape, color) and geoms
+| (points, lines, and bars), the geometric objects you see on the plot.
+
+==========================================================
+=================================                                                               |  34%
+| A nice scatterplot done simply, right? All the labels are provided. The first argument is shown along
+| the x-axis and the second along the y-axis. The negative trend (increasing displacement and lower gas
+| mileage) is pretty clear. Now suppose we want to do the same plot but this time use different colors to
+| distinguish between the 3 factors (subsets) of different types of drive (drv) in the data (front-wheel,
+| rear-wheel, and 4-wheel). Again, qplot makes this very easy. We'll just add what ggplot2 calls an
+| aesthetic, a fourth argument, color, and set it equal to drv. Try this now. (Use the up arrow key to
+| save some typing.)
+
+> qplot(displ,hwy,data=mpg,color=drv)
+
+| You got it right!
+
+  |===================================                                                             |  37%
+| Pretty cool, right? See the legend to the right which qplot helpfully supplied? The colors were
+| automatically assigned by qplot so the legend decodes the colors for you. Notice that qplot
+| automatically used dots or points to indicate the data. These points are geoms (geometric objects). We
+| could have used a different aesthetic, for instance shape instead of color, to distinguish between the
+| drive types.
+-=======================================================
+|=======                                                                                                                                                                       |   4%
+| Do you remember what the gg of ggplot2 stands for?
+
+1: great graphics
+2: good grief
+3: goto graphics
+4: grammar of graphics
+
+Selection: 4
+
+| Great job!
+
+  |===========                                                                                                                                                                   |   6%
+| A "grammar" of graphics means that ggplot2 contains building blocks with which you can create your own graphical objects. What are these basic components of ggplot2 plots? There are
+| 7 of them.
+
+...
+
+  |==============                                                                                                                                                                |   8%
+| Obviously, there's a DATA FRAME which contains the data you're trying to plot. Then the AESTHETIC MAPPINGS determine how data are mapped to color, size, etc. The GEOMS (geometric
+| objects) are what you see in the plot (points, lines, shapes) and FACETS are the panels used in conditional plots. You've used these or seen them used in the first ggplot2 (qplot)
+| lesson.
+
+=============================================================
+
+
+
+
+| Not quite right, but keep trying. Or, type info() for more options.
+
+| Type g+geom_point()+geom_smooth(method="lm") at the command prompt.
+
+
+ ===============
+ > g+geom_point()+geom_smooth(method="lm")
+
+| Nice try, but that's not exactly what I was hoping for. Try again. Or, type info() for more options.
+
+| Type g+geom_point()+geom_smooth(method="lm") + facet_grid(.~drv) at the command prompt.
+
+> g+geom_point()+geom_smooth(method="lm") + facet_grid(.~drv)
+==========================
+
+> g+geom_point(color="pink",size=4,alpha=1/2)
+
+| That's not the answer I was looking for, but try again. Or, type info() for more options.
+
+| Type g + geom_point(aes(color = drv), size = 4, alpha = 1/2) at the command prompt.
+
+> g + geom_point(aes(color = drv), size = 4, alpha = 1/2)
+
+==================================
+g + geom_point(aes(color = drv),size=2,alpha=1/2) + geom_smooth(size=4,linetype=3,method="lm",se=FALSE)
+
+g + geom_point(aes(color = drv)) + theme_bw(base_family="Times")
+
+ plot(myx, myy, type = "l", ylim = c(-3,3))
+
+
+
+
+
+
+> g+geom_point(())
+Error: unexpected ')' in "g+geom_point(()"
+> g+geom_point()
+
+| Your dedication is inspiring!
+
+  |============================================================================================================================================================                  |  90%
+| A simple, yet comfortingly familiar scatterplot appears. Let's make our display a 2 dimensional multi-panel plot. Recall your last command (with the up arrow) and add to it a
+| call the function facet_grid. Give it 2 arguments. The first is the formula drv~cyl, and the second is the argument margins set equal to TRUE. Try this now.
+
+> g+geom_point()+facet_grid(drv~cyl,margins=TRUE)
+
+| You got it right!
+
+  |================================================================================================================================================================              |  92%
+| A 4 by 5 plot, huh? The margins argument tells ggplot to display the marginal totals over each row and column, so instead of seeing 3 rows (the number of drv factors) and 4
+| columns (the number of cyl factors) we see a 4 by 5 display. Note that the panel in position (4,5) is a tiny version of the scatterplot of the entire dataset.
+
+...
+
+  |===================================================================================================================================================================           |  94%
+| Now add to your last command (or retype it if you like to type) a call to geom_smooth with 4 arguments. These are method set to "lm", se set to FALSE, size set to 2, and color
+| set to "black".
+
+> 
+> g+geom_point()+facet_grid(drv~cyl,margins=TRUE)
+
+| Try again. Getting it right on the first try is boring anyway! Or, type info() for more options.
+
+| Type g + geom_point() + facet_grid(drv~cyl,margins=TRUE)+geom_smooth(method="lm",size=2,se=FALSE,color="black")
+
+
+ g + geom_point() + facet_grid(drv~cyl,margins=TRUE)+geom_smooth(method="lm",size=2,se=FALSE,color="black")+labs(x="Displacement",y="Highway Mileage",title="Swirl Rules!")
+
+
+qplot(price,data=diamonds,binwidth=18497/30,fill=cut)
+
+qplot(price,data=diamonds,geom="density")
+===================================================================
+
+
+
+qplot(carat,price,data=diamonds, color=cut, facets=.~cut) + geom_smooth(method="lm")
+
+
+g+geom_point(alpha=1/3)+facet_grid(cut~car2)+geom_smooth(method="lm",size=3,color="pink") 
+
+
+ggplot(diamonds,aes(carat,price))+geom_boxplot()+facet_grid(.~cut)
+
+===============================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
