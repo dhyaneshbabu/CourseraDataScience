@@ -1,0 +1,1002 @@
+1                 -4.778749e-01                  -3.853005e-01                   0.0336439430
+     tBodyAccJerk.correlation...Y.Z tBodyGyro.mean...X tBodyGyro.mean...Y tBodyGyro.mean...Z
+1                     -1.265108e-01      -6.100849e-03      -3.136479e-02       1.077254e-01
+     tBodyGyro.std...X tBodyGyro.std...Y tBodyGyro.std...Z tBodyGyro.mad...X tBodyGyro.mad...Y
+1         -0.985310270     -0.9766234400     -0.9922052800      -0.984586260     -0.9763526200
+     tBodyGyro.mad...Z tBodyGyro.max...X tBodyGyro.max...Y tBodyGyro.max...Z tBodyGyro.min...X
+1        -0.9923616400     -0.8670437400     -9.337860e-01     -0.7475661800       0.847307960
+     tBodyGyro.min...Y tBodyGyro.min...Z tBodyGyro.sma.. tBodyGyro.energy...X tBodyGyro.energy...Y
+1         0.9148953400      8.308405e-01   -9.671843e-01         -0.999578310         -0.999354320
+     tBodyGyro.energy...Z tBodyGyro.iqr...X tBodyGyro.iqr...Y tBodyGyro.iqr...Z
+1            -0.999763390      -0.983438080     -0.9786140100      -0.992965580
+     tBodyGyro.entropy...X tBodyGyro.entropy...Y tBodyGyro.entropy...Z tBodyGyro.arCoeff...X.1
+1             8.263168e-02          0.2022676500         -0.1687566900            0.0963232360
+     tBodyGyro.arCoeff...X.2 tBodyGyro.arCoeff...X.3 tBodyGyro.arCoeff...X.4
+1              -2.749851e-01            4.986442e-01           -2.203169e-01
+     tBodyGyro.arCoeff...Y.1 tBodyGyro.arCoeff...Y.2 tBodyGyro.arCoeff...Y.3
+1               1.000000e+00           -9.729714e-01            3.166545e-01
+     tBodyGyro.arCoeff...Y.4 tBodyGyro.arCoeff...Z.1 tBodyGyro.arCoeff...Z.2
+1               3.757264e-01            7.233992e-01           -7.711120e-01
+     tBodyGyro.arCoeff...Z.3 tBodyGyro.arCoeff...Z.4 tBodyGyro.correlation...X.Y
+1               6.902132e-01           -3.318310e-01                0.7095837700
+     tBodyGyro.correlation...X.Z tBodyGyro.correlation...Y.Z tBodyGyroJerk.mean...X
+1                   1.348734e-01                3.010995e-01          -9.916740e-02
+     tBodyGyroJerk.mean...Y tBodyGyroJerk.mean...Z tBodyGyroJerk.std...X tBodyGyroJerk.std...Y
+1             -5.551737e-02          -6.198580e-02          -0.992110670         -0.9925192700
+     tBodyGyroJerk.std...Z tBodyGyroJerk.mad...X tBodyGyroJerk.mad...Y tBodyGyroJerk.mad...Z
+1            -0.9920552800         -0.9921647500         -0.9949415600          -0.992619050
+     tBodyGyroJerk.max...X tBodyGyroJerk.max...Y tBodyGyroJerk.max...Z tBodyGyroJerk.min...X
+1             -0.990155850         -9.867428e-01          -0.992041550          0.9944287600
+     tBodyGyroJerk.min...Y tBodyGyroJerk.min...Z tBodyGyroJerk.sma.. tBodyGyroJerk.energy...X
+1              0.991755810           0.989351950       -0.9944533500             -0.999937550
+     tBodyGyroJerk.energy...Y tBodyGyroJerk.energy...Z tBodyGyroJerk.iqr...X tBodyGyroJerk.iqr...Y
+1                -0.999953500              -0.99992294         -0.9922997400          -0.996938920
+     tBodyGyroJerk.iqr...Z tBodyGyroJerk.entropy...X tBodyGyroJerk.entropy...Y
+1            -0.9922429800             -0.5898509600             -6.884590e-01
+     tBodyGyroJerk.entropy...Z tBodyGyroJerk.arCoeff...X.1 tBodyGyroJerk.arCoeff...X.2
+1                -0.5721068600                2.923763e-01               -3.619980e-01
+     tBodyGyroJerk.arCoeff...X.3 tBodyGyroJerk.arCoeff...X.4 tBodyGyroJerk.arCoeff...Y.1
+1                   4.055427e-01               -3.900695e-02                0.9892838100
+     tBodyGyroJerk.arCoeff...Y.2 tBodyGyroJerk.arCoeff...Y.3 tBodyGyroJerk.arCoeff...Y.4
+1                  -4.145605e-01                3.916025e-01                2.822509e-01
+     tBodyGyroJerk.arCoeff...Z.1 tBodyGyroJerk.arCoeff...Z.2 tBodyGyroJerk.arCoeff...Z.3
+1                   9.272698e-01               -5.723700e-01                6.916192e-01
+     tBodyGyroJerk.arCoeff...Z.4 tBodyGyroJerk.correlation...X.Y tBodyGyroJerk.correlation...X.Z
+1                   4.682898e-01                   -1.310770e-01                   -8.715969e-02
+     tBodyGyroJerk.correlation...Y.Z tBodyAccMag.mean.. tBodyAccMag.std.. tBodyAccMag.mad..
+1                       0.3362474800      -0.9594338800     -0.9505515000     -9.579929e-01
+     tBodyAccMag.max.. tBodyAccMag.min.. tBodyAccMag.sma.. tBodyAccMag.energy.. tBodyAccMag.iqr..
+1        -9.463052e-01      -0.992555720     -0.9594338800         -0.998492850      -0.957637400
+     tBodyAccMag.entropy.. tBodyAccMag.arCoeff..1 tBodyAccMag.arCoeff..2 tBodyAccMag.arCoeff..3
+1            -0.2325816400          -1.731787e-01          -2.289666e-02           9.483157e-02
+     tBodyAccMag.arCoeff..4 tGravityAccMag.mean.. tGravityAccMag.std.. tGravityAccMag.mad..
+1              1.918171e-01         -0.9594338800        -0.9505515000        -9.579929e-01
+     tGravityAccMag.max.. tGravityAccMag.min.. tGravityAccMag.sma.. tGravityAccMag.energy..
+1           -9.463052e-01         -0.992555720        -0.9594338800            -0.998492850
+     tGravityAccMag.iqr.. tGravityAccMag.entropy.. tGravityAccMag.arCoeff..1
+1            -0.957637400            -0.2325816400             -1.731787e-01
+     tGravityAccMag.arCoeff..2 tGravityAccMag.arCoeff..3 tGravityAccMag.arCoeff..4
+1                -2.289666e-02              9.483157e-02              1.918171e-01
+     tBodyAccJerkMag.mean.. tBodyAccJerkMag.std.. tBodyAccJerkMag.mad.. tBodyAccJerkMag.max..
+1             -0.9933058600         -0.9943364100         -0.9945003700         -0.9927839900
+     tBodyAccJerkMag.min.. tBodyAccJerkMag.sma.. tBodyAccJerkMag.energy.. tBodyAccJerkMag.iqr..
+1             -0.991208470         -0.9933058600            -0.9998918800         -9.929337e-01
+     tBodyAccJerkMag.entropy.. tBodyAccJerkMag.arCoeff..1 tBodyAccJerkMag.arCoeff..2
+1                 -0.863414760               2.830852e-01              -2.373087e-01
+     tBodyAccJerkMag.arCoeff..3 tBodyAccJerkMag.arCoeff..4 tBodyGyroMag.mean.. tBodyGyroMag.std..
+1                 -1.054322e-01              -3.821231e-02       -9.689591e-01       -0.964335180
+     tBodyGyroMag.mad.. tBodyGyroMag.max.. tBodyGyroMag.min.. tBodyGyroMag.sma..
+1         -9.572448e-01      -0.9750598600      -0.9915536600      -9.689591e-01
+     tBodyGyroMag.energy.. tBodyGyroMag.iqr.. tBodyGyroMag.entropy.. tBodyGyroMag.arCoeff..1
+1             -0.999286460      -0.9497658200           0.0725790350            0.5725114200
+     tBodyGyroMag.arCoeff..2 tBodyGyroMag.arCoeff..3 tBodyGyroMag.arCoeff..4
+1              -7.386022e-01            0.2125777600            4.334050e-01
+     tBodyGyroJerkMag.mean.. tBodyGyroJerkMag.std.. tBodyGyroJerkMag.mad.. tBodyGyroJerkMag.max..
+1               -0.994247820          -0.9913676100           -0.993142980          -0.9889356300
+     tBodyGyroJerkMag.min.. tBodyGyroJerkMag.sma.. tBodyGyroJerkMag.energy.. tBodyGyroJerkMag.iqr..
+1              -0.993486030           -0.994247820              -0.999948980          -0.9945471800
+     tBodyGyroJerkMag.entropy.. tBodyGyroJerkMag.arCoeff..1 tBodyGyroJerkMag.arCoeff..2
+1                 -0.6197676300                2.928405e-01               -1.768892e-01
+     tBodyGyroJerkMag.arCoeff..3 tBodyGyroJerkMag.arCoeff..4 fBodyAcc.mean...X fBodyAcc.mean...Y
+1                  -1.457792e-01               -1.240723e-01     -0.9947831900     -0.9829841000
+     fBodyAcc.mean...Z fBodyAcc.std...X fBodyAcc.std...Y fBodyAcc.std...Z fBodyAcc.mad...X
+1        -0.9392686500    -0.9954217500    -9.831330e-01    -0.9061649800    -9.968886e-01
+     fBodyAcc.mad...Y fBodyAcc.mad...Z fBodyAcc.max...X fBodyAcc.max...Y fBodyAcc.max...Z
+1       -9.845193e-01    -0.9320820000    -9.937563e-01    -0.9831628500    -0.8850542200
+     fBodyAcc.min...X fBodyAcc.min...Y fBodyAcc.min...Z fBodyAcc.sma.. fBodyAcc.energy...X
+1        -0.993961850     -0.993446110     -0.923427720  -0.9747327100       -0.9999683800
+     fBodyAcc.energy...Y fBodyAcc.energy...Z fBodyAcc.iqr...X fBodyAcc.iqr...Y fBodyAcc.iqr...Z
+1           -0.999689110        -0.994891480    -0.9959260200    -9.897089e-01     -0.987991150
+     fBodyAcc.entropy...X fBodyAcc.entropy...Y fBodyAcc.entropy...Z fBodyAcc.maxInds.X
+1            -0.946356920         -0.904747760        -5.913025e-01        -1.00000000
+     fBodyAcc.maxInds.Y fBodyAcc.maxInds.Z fBodyAcc.meanFreq...X fBodyAcc.meanFreq...Y
+1           -1.00000000        -1.00000000          2.524829e-01          1.318358e-01
+     fBodyAcc.meanFreq...Z fBodyAcc.skewness...X fBodyAcc.kurtosis...X fBodyAcc.skewness...Y
+1            -5.205025e-02          0.1420505600         -0.1506825000         -0.2205469400
+     fBodyAcc.kurtosis...Y fBodyAcc.skewness...Z fBodyAcc.kurtosis...Z fBodyAcc.bandsEnergy...1.8
+1            -0.5587385300          2.467687e-01         -0.0074155206              -0.9999627900
+     fBodyAcc.bandsEnergy...9.16 fBodyAcc.bandsEnergy...17.24 fBodyAcc.bandsEnergy...25.32
+1                   -0.999986500                 -0.999979070                -0.9999624400
+     fBodyAcc.bandsEnergy...33.40 fBodyAcc.bandsEnergy...41.48 fBodyAcc.bandsEnergy...49.56
+1                    -0.999932220                 -0.999725120                  -0.99967039
+     fBodyAcc.bandsEnergy...57.64 fBodyAcc.bandsEnergy...1.16 fBodyAcc.bandsEnergy...17.32
+1                    -0.999985820               -0.9999686700                -0.9999768600
+     fBodyAcc.bandsEnergy...33.48 fBodyAcc.bandsEnergy...49.64 fBodyAcc.bandsEnergy...1.24
+1                     -0.99986966                  -0.99977613               -0.9999711500
+     fBodyAcc.bandsEnergy...25.48 fBodyAcc.bandsEnergy...1.8.1 fBodyAcc.bandsEnergy...9.16.1
+1                    -0.999919250                 -0.999656800                 -0.9998604600
+     fBodyAcc.bandsEnergy...17.24.1 fBodyAcc.bandsEnergy...25.32.1 fBodyAcc.bandsEnergy...33.40.1
+1                      -0.999866950                  -0.9998630100                   -0.999737830
+     fBodyAcc.bandsEnergy...41.48.1 fBodyAcc.bandsEnergy...49.56.1 fBodyAcc.bandsEnergy...57.64.1
+1                      -0.999732200                    -0.99949261                    -0.99981364
+     fBodyAcc.bandsEnergy...1.16.1 fBodyAcc.bandsEnergy...17.32.1 fBodyAcc.bandsEnergy...33.48.1
+1                    -0.9996818200                  -9.998394e-01                  -9.997382e-01
+     fBodyAcc.bandsEnergy...49.64.1 fBodyAcc.bandsEnergy...1.24.1 fBodyAcc.bandsEnergy...25.48.1
+1                       -0.99961197                 -0.9996872100                   -0.999838630
+     fBodyAcc.bandsEnergy...1.8.2 fBodyAcc.bandsEnergy...9.16.2 fBodyAcc.bandsEnergy...17.24.2
+1                    -0.993592340                  -0.999475840                   -0.999662040
+     fBodyAcc.bandsEnergy...25.32.2 fBodyAcc.bandsEnergy...33.40.2 fBodyAcc.bandsEnergy...41.48.2
+1                       -0.99964230                    -0.99929341                   -0.997892220
+     fBodyAcc.bandsEnergy...49.56.2 fBodyAcc.bandsEnergy...57.64.2 fBodyAcc.bandsEnergy...1.16.2
+1                       -0.99593249                   -0.995146420                  -0.994739900
+     fBodyAcc.bandsEnergy...17.32.2 fBodyAcc.bandsEnergy...33.48.2 fBodyAcc.bandsEnergy...49.64.2
+1                      -0.999688260                    -0.99892456                    -0.99567134
+     fBodyAcc.bandsEnergy...1.24.2 fBodyAcc.bandsEnergy...25.48.2 fBodyAccJerk.mean...X
+1                     -0.994877310                    -0.99945439         -0.9923324500
+     fBodyAccJerk.mean...Y fBodyAccJerk.mean...Z fBodyAccJerk.std...X fBodyAccJerk.std...Y
+1            -9.871699e-01         -0.9896960900        -9.958207e-01        -9.909363e-01
+     fBodyAccJerk.std...Z fBodyAccJerk.mad...X fBodyAccJerk.mad...Y fBodyAccJerk.mad...Z
+1           -0.9970516700        -9.938055e-01        -9.905187e-01        -0.9969927900
+     fBodyAccJerk.max...X fBodyAccJerk.max...Y fBodyAccJerk.max...Z fBodyAccJerk.min...X
+1           -0.9967368900        -9.919752e-01        -0.9932416700        -0.9983490700
+     fBodyAccJerk.min...Y fBodyAccJerk.min...Z fBodyAccJerk.sma.. fBodyAccJerk.energy...X
+1           -0.9911084200         -0.959885370      -0.9905149900            -0.999934750
+     fBodyAccJerk.energy...Y fBodyAccJerk.energy...Z fBodyAccJerk.iqr...X fBodyAccJerk.iqr...Y
+1               -0.999820480           -9.998845e-01        -9.930263e-01        -9.913734e-01
+     fBodyAccJerk.iqr...Z fBodyAccJerk.entropy...X fBodyAccJerk.entropy...Y
+1            -0.996239620             -1.000000000            -1.000000e+00
+     fBodyAccJerk.entropy...Z fBodyAccJerk.maxInds.X fBodyAccJerk.maxInds.Y fBodyAccJerk.maxInds.Z
+1               -1.000000e+00                   1.00                  -0.24                  -1.00
+     fBodyAccJerk.meanFreq...X fBodyAccJerk.meanFreq...Y fBodyAccJerk.meanFreq...Z
+1                 8.703845e-01              2.106970e-01              2.637079e-01
+     fBodyAccJerk.skewness...X fBodyAccJerk.kurtosis...X fBodyAccJerk.skewness...Y
+1                -0.7036857700              -0.903742510             -0.5825736200
+     fBodyAccJerk.kurtosis...Y fBodyAccJerk.skewness...Z fBodyAccJerk.kurtosis...Z
+1                 -0.936310050             -5.073447e-01              -0.805535910
+     fBodyAccJerk.bandsEnergy...1.8 fBodyAccJerk.bandsEnergy...9.16
+1                     -0.9999864900                     -0.99997960
+     fBodyAccJerk.bandsEnergy...17.24 fBodyAccJerk.bandsEnergy...25.32
+1                       -0.9999747800                      -0.99995513
+     fBodyAccJerk.bandsEnergy...33.40 fBodyAccJerk.bandsEnergy...41.48
+1                        -0.999918610                    -0.9996401100
+     fBodyAccJerk.bandsEnergy...49.56 fBodyAccJerk.bandsEnergy...57.64
+1                         -0.99948330                      -0.99996087
+     fBodyAccJerk.bandsEnergy...1.16 fBodyAccJerk.bandsEnergy...17.32
+1                        -0.99998227                    -9.999707e-01
+     fBodyAccJerk.bandsEnergy...33.48 fBodyAccJerk.bandsEnergy...49.64
+1                        -0.999810980                      -0.99948472
+     fBodyAccJerk.bandsEnergy...1.24 fBodyAccJerk.bandsEnergy...25.48
+1                       -0.999980830                     -0.999851890
+     fBodyAccJerk.bandsEnergy...1.8.1 fBodyAccJerk.bandsEnergy...9.16.1
+1                        -0.999932610                     -0.9998999300
+     fBodyAccJerk.bandsEnergy...17.24.1 fBodyAccJerk.bandsEnergy...25.32.1
+1                          -0.999824440                       -0.999859820
+     fBodyAccJerk.bandsEnergy...33.40.1 fBodyAccJerk.bandsEnergy...41.48.1
+1                          -0.999727510                      -0.9997287600
+     fBodyAccJerk.bandsEnergy...49.56.1 fBodyAccJerk.bandsEnergy...57.64.1
+1                           -0.99956707                        -0.99976524
+     fBodyAccJerk.bandsEnergy...1.16.1 fBodyAccJerk.bandsEnergy...17.32.1
+1                         -0.999900210                      -0.9998149000
+     fBodyAccJerk.bandsEnergy...33.48.1 fBodyAccJerk.bandsEnergy...49.64.1
+1                         -0.9997098000                        -0.99959608
+     fBodyAccJerk.bandsEnergy...1.24.1 fBodyAccJerk.bandsEnergy...25.48.1
+1                        -0.9998521600                       -0.999822100
+     fBodyAccJerk.bandsEnergy...1.8.2 fBodyAccJerk.bandsEnergy...9.16.2
+1                         -0.99939988                     -0.9997655900
+     fBodyAccJerk.bandsEnergy...17.24.2 fBodyAccJerk.bandsEnergy...25.32.2
+1                           -0.99995846                       -0.999949510
+     fBodyAccJerk.bandsEnergy...33.40.2 fBodyAccJerk.bandsEnergy...41.48.2
+1                           -0.99983850                      -0.9998135100
+     fBodyAccJerk.bandsEnergy...49.56.2 fBodyAccJerk.bandsEnergy...57.64.2
+1                           -0.99878054                        -0.99857783
+     fBodyAccJerk.bandsEnergy...1.16.2 fBodyAccJerk.bandsEnergy...17.32.2
+1                         -0.999619680                      -9.999836e-01
+     fBodyAccJerk.bandsEnergy...33.48.2 fBodyAccJerk.bandsEnergy...49.64.2
+1                          -0.999828120                       -0.998680680
+     fBodyAccJerk.bandsEnergy...1.24.2 fBodyAccJerk.bandsEnergy...25.48.2 fBodyGyro.mean...X
+1                        -0.9998441600                        -0.99992792       -0.986574420
+     fBodyGyro.mean...Y fBodyGyro.mean...Z fBodyGyro.std...X fBodyGyro.std...Y fBodyGyro.std...Z
+1         -0.9817615300      -0.9895147800     -0.9850326400     -0.9738860700      -0.994034930
+     fBodyGyro.mad...X fBodyGyro.mad...Y fBodyGyro.mad...Z fBodyGyro.max...X fBodyGyro.max...Y
+1        -0.9865308500     -0.9836163600     -9.923520e-01     -9.804984e-01     -9.722709e-01
+     fBodyGyro.max...Z fBodyGyro.min...X fBodyGyro.min...Y fBodyGyro.min...Z fBodyGyro.sma..
+1         -0.994944260       -0.99756862      -0.984085100      -0.994335410   -0.9852762100
+     fBodyGyro.energy...X fBodyGyro.energy...Y fBodyGyro.energy...Z fBodyGyro.iqr...X
+1            -0.999863710         -0.999666080         -0.999934620     -0.9903438900
+     fBodyGyro.iqr...Y fBodyGyro.iqr...Z fBodyGyro.entropy...X fBodyGyro.entropy...Y
+1        -9.948357e-01     -9.944116e-01         -0.7124022500         -0.6448423600
+     fBodyGyro.entropy...Z fBodyGyro.maxInds.X fBodyGyro.maxInds.Y fBodyGyro.maxInds.Z
+1            -8.389930e-01         -1.00000000         -1.00000000         -1.00000000
+     fBodyGyro.meanFreq...X fBodyGyro.meanFreq...Y fBodyGyro.meanFreq...Z fBodyGyro.skewness...X
+1             -0.2575488800           0.0979471090           5.471510e-01           3.773112e-01
+     fBodyGyro.kurtosis...X fBodyGyro.skewness...Y fBodyGyro.kurtosis...Y fBodyGyro.skewness...Z
+1              0.1340915400           2.733720e-01          -0.0912618310          -0.4843465000
+     fBodyGyro.kurtosis...Z fBodyGyro.bandsEnergy...1.8 fBodyGyro.bandsEnergy...9.16
+1             -0.7828507000                -0.999865020                -0.9999317800
+     fBodyGyro.bandsEnergy...17.24 fBodyGyro.bandsEnergy...25.32 fBodyGyro.bandsEnergy...33.40
+1                      -0.99997295                   -0.99997018                   -0.99993012
+     fBodyGyro.bandsEnergy...41.48 fBodyGyro.bandsEnergy...49.56 fBodyGyro.bandsEnergy...57.64
+1                      -0.99995862                   -0.99992899                  -0.999984650
+     fBodyGyro.bandsEnergy...1.16 fBodyGyro.bandsEnergy...17.32 fBodyGyro.bandsEnergy...33.48
+1                    -0.999863260                   -0.99996815                  -0.999936100
+     fBodyGyro.bandsEnergy...49.64 fBodyGyro.bandsEnergy...1.24 fBodyGyro.bandsEnergy...25.48
+1                      -0.99995363                 -0.999864420                   -0.99996098
+     fBodyGyro.bandsEnergy...1.8.1 fBodyGyro.bandsEnergy...9.16.1 fBodyGyro.bandsEnergy...17.24.1
+1                     -0.999453730                   -0.999978110                    -0.999991530
+     fBodyGyro.bandsEnergy...25.32.1 fBodyGyro.bandsEnergy...33.40.1
+1                        -0.99999010                      -0.9999686
+     fBodyGyro.bandsEnergy...41.48.1 fBodyGyro.bandsEnergy...49.56.1
+1                       -0.999806570                    -0.998346000
+     fBodyGyro.bandsEnergy...57.64.1 fBodyGyro.bandsEnergy...1.16.1 fBodyGyro.bandsEnergy...17.32.1
+1                       -0.998961220                   -0.999618740                    -0.999989340
+     fBodyGyro.bandsEnergy...33.48.1 fBodyGyro.bandsEnergy...49.64.1 fBodyGyro.bandsEnergy...1.24.1
+1                         -0.9999354                    -0.998387520                   -0.999642640
+     fBodyGyro.bandsEnergy...25.48.1 fBodyGyro.bandsEnergy...1.8.2 fBodyGyro.bandsEnergy...9.16.2
+1                        -0.99997266                  -0.999955350                   -0.999976300
+     fBodyGyro.bandsEnergy...17.24.2 fBodyGyro.bandsEnergy...25.32.2
+1                       -0.999905830                     -0.99998550
+     fBodyGyro.bandsEnergy...33.40.2 fBodyGyro.bandsEnergy...41.48.2
+1                         -0.9999372                    -0.999751150
+     fBodyGyro.bandsEnergy...49.56.2 fBodyGyro.bandsEnergy...57.64.2 fBodyGyro.bandsEnergy...1.16.2
+1                      -0.9990722700                     -0.99992754                  -0.9999515800
+     fBodyGyro.bandsEnergy...17.32.2 fBodyGyro.bandsEnergy...33.48.2
+1                      -0.9999058500                      -0.9998927
+     fBodyGyro.bandsEnergy...49.64.2 fBodyGyro.bandsEnergy...1.24.2 fBodyGyro.bandsEnergy...25.48.2
+1                       -0.999444330                   -0.999940990                      -0.9999586
+     fBodyAccMag.mean.. fBodyAccMag.std.. fBodyAccMag.mad.. fBodyAccMag.max.. fBodyAccMag.min..
+1         -9.521547e-01     -0.9561339700     -0.9488701400     -9.743206e-01      -0.925721790
+     fBodyAccMag.sma.. fBodyAccMag.energy.. fBodyAccMag.iqr.. fBodyAccMag.entropy..
+1        -9.521547e-01         -0.998285200     -9.732732e-01          -0.646376450
+     fBodyAccMag.maxInds fBodyAccMag.meanFreq.. fBodyAccMag.skewness.. fBodyAccMag.kurtosis..
+1            -0.79310345          -8.843612e-02          -0.4364710400           -0.796840480
+     fBodyBodyAccJerkMag.mean.. fBodyBodyAccJerkMag.std.. fBodyBodyAccJerkMag.mad..
+1                 -0.9937256500             -9.937550e-01             -9.919757e-01
+     fBodyBodyAccJerkMag.max.. fBodyBodyAccJerkMag.min.. fBodyBodyAccJerkMag.sma..
+1                -0.9933647200              -0.988175430             -0.9937256500
+     fBodyBodyAccJerkMag.energy.. fBodyBodyAccJerkMag.iqr.. fBodyBodyAccJerkMag.entropy..
+1                     -0.99991844             -0.9913636600                 -1.000000e+00
+     fBodyBodyAccJerkMag.maxInds fBodyBodyAccJerkMag.meanFreq.. fBodyBodyAccJerkMag.skewness..
+1                    -0.93650794                   0.3469885300                  -5.160801e-01
+     fBodyBodyAccJerkMag.kurtosis.. fBodyBodyGyroMag.mean.. fBodyBodyGyroMag.std..
+1                     -0.8027600300           -0.9801348500          -0.9613094400
+     fBodyBodyGyroMag.mad.. fBodyBodyGyroMag.max.. fBodyBodyGyroMag.min.. fBodyBodyGyroMag.sma..
+1             -0.9736534400          -0.9522638300           -0.989498130          -0.9801348500
+     fBodyBodyGyroMag.energy.. fBodyBodyGyroMag.iqr.. fBodyBodyGyroMag.entropy..
+1                 -0.999240350          -9.926555e-01              -0.7012914100
+     fBodyBodyGyroMag.maxInds fBodyBodyGyroMag.meanFreq.. fBodyBodyGyroMag.skewness..
+1                 -1.00000000               -1.289889e-01                0.5861564300
+     fBodyBodyGyroMag.kurtosis.. fBodyBodyGyroJerkMag.mean.. fBodyBodyGyroJerkMag.std..
+1                   3.746046e-01               -0.9919904400              -0.9906974600
+     fBodyBodyGyroJerkMag.mad.. fBodyBodyGyroJerkMag.max.. fBodyBodyGyroJerkMag.min..
+1                  -0.989940840               -0.992447840               -0.991047730
+     fBodyBodyGyroJerkMag.sma.. fBodyBodyGyroJerkMag.energy.. fBodyBodyGyroJerkMag.iqr..
+1                 -0.9919904400                   -0.99993676               -0.990457920
+     fBodyBodyGyroJerkMag.entropy.. fBodyBodyGyroJerkMag.maxInds fBodyBodyGyroJerkMag.meanFreq..
+1                     -8.713058e-01                  -1.00000000                   -7.432303e-02
+     fBodyBodyGyroJerkMag.skewness.. fBodyBodyGyroJerkMag.kurtosis.. angle.tBodyAccMean.gravity.
+1                      -0.2986763700                   -0.7103040700               -1.127543e-01
+     angle.tBodyAccJerkMean..gravityMean. angle.tBodyGyroMean.gravityMean.
+1                            0.0304003720                    -4.647614e-01
+     angle.tBodyGyroJerkMean.gravityMean. angle.X.gravityMean. angle.Y.gravityMean.
+1                           -1.844588e-02          -0.84124676         0.1799406100
+     angle.Z.gravityMean. subject activity
+1           -5.862692e-02       1 standing
+ [ reached getOption("max.print") -- omitted 7351 rows ]
+
+| One more time. You can do it! Or, type info() for more options.
+
+| Type sub1 <- subset(ssd, subject == 1) at the command prompt.
+
+> 
+> 
+> 
+> 
+> sub1 <- subset(ssd,subject == 1)
+
+| You are quite good my friend!
+
+  |==========================                                                                              |  25%
+| Look at the dimensions of sub1 now.
+
+> dim(sub1)
+[1] 347 563
+
+| That's a job well done!
+
+  |============================                                                                            |  27%
+| So sub1 has fewer than 400 rows now, but still a lot of columns which contain measurements. Use
+| names on the first 12 columns of sub1 to see what kind of data we have.
+
+> names(sub1[,1:12])
+ [1] "tBodyAcc.mean...X" "tBodyAcc.mean...Y" "tBodyAcc.mean...Z" "tBodyAcc.std...X" 
+ [5] "tBodyAcc.std...Y"  "tBodyAcc.std...Z"  "tBodyAcc.mad...X"  "tBodyAcc.mad...Y" 
+ [9] "tBodyAcc.mad...Z"  "tBodyAcc.max...X"  "tBodyAcc.max...Y"  "tBodyAcc.max...Z" 
+
+| All that practice is paying off!
+
+  |=============================                                                                           |  28%
+| We see X, Y, and Z (3 dimensions) of different aspects of body acceleration measurements, such as
+| mean and standard deviation. Let's do some comparisons of activities now by looking at plots of
+| mean body acceleration in the X and Y directions. Call the function myedit with the string
+| "showXY.R" to see the code generating the plots. Make sure your cursor is back in the console
+| window before you hit any more buttons.
+
+> myedit(showXY.R)
+ Show Traceback
+ 
+ Rerun with Debug
+ Error in file.path(.get_course_path(), "Exploratory_Data_Analysis", "Clustering_Example",  : 
+  object 'showXY.R' not found 
+> myedit("showXY.R")
+
+| You got it!
+
+  |===============================                                                                         |  30%
+| You see both the code and its output! The plots are a little squished, but we see that the active
+| activities related to walking (shown in the two blues and magenta) show more variability than the
+| passive activities (shown in black, red, and green), particularly in the X dimension.
+
+...
+
+  |================================                                                                        |  31%
+| The colors are a little hard to distinguish. Just for fun, call the function showMe (we used it
+| in the Working_with_Colors lesson) which displays color vectors. Use the vector 1:6 as its
+| argument, and hopefully this will clarify the colors you see in the XY comparison plot.
+
+> showMe(1:6)
+
+| Perseverance, that's the answer.
+
+  |==================================                                                                      |  33%
+| Nice! We just wanted to show you the beauty and difference in colors. The colors at the bottom,
+| black, red and green, mark the passive activities, while the true blues and magenta near the top
+| show the walking activities. Let's try clustering to see if we can distinguish the activities
+| more.
+
+...
+
+  |====================================                                                                    |  34%
+| We'll still focus on the 3 dimensions of mean acceleration. (The plot we just saw looked at the
+| first 2 dimensions.) Create a distance matrix, mdist, of the first 3 columns of sub1, by using
+| the R command dist. Use the x[,1:3] notation to specify the columns.
+
+> showMe(1:6)
+
+| Not quite! Try again. Or, type info() for more options.
+
+| Type mdist <- dist(sub1[,1:3]) the command prompt.
+
+> mdist <- dist(sub1[,1:3])
+
+| You're the best!
+
+  |=====================================                                                                   |  36%
+| Now create the variable hclustering by calling the R command hclust and passing it mdist as an
+| argument. This will use the Euclidean distance as its default metric.
+
+> dist(mdist)
+               1            2            3            4            5            6            7
+2    0.192022216                                                                              
+3    0.287282765  0.124088830                                                                 
+               8            9           10           11           12           13           14
+2                                                                                             
+3                                                                                             
+              15           16           17           18           19           20           21
+2                                                                                             
+3                                                                                             
+              22           23           24           25           26           27           28
+2                                                                                             
+3                                                                                             
+              29           30           31           32           33           34           35
+2                                                                                             
+3                                                                                             
+              36           37           38           39           40           41           42
+2                                                                                             
+3                                                                                             
+              43           44           45           46           47           48           49
+2                                                                                             
+3                                                                                             
+              50           51           52           53           54           55           56
+2                                                                                             
+3                                                                                             
+              57           58           59           60           61           62           63
+2                                                                                             
+3                                                                                             
+              64           65           66           67           68           69           70
+2                                                                                             
+3                                                                                             
+              71           72           73           74           75           76           77
+2                                                                                             
+3                                                                                             
+              78           79           80           81           82           83           84
+2                                                                                             
+3                                                                                             
+              85           86           87           88           89           90           91
+2                                                                                             
+3                                                                                             
+              92           93           94           95           96           97           98
+2                                                                                             
+3                                                                                             
+              99          100          101          102          103          104          105
+2                                                                                             
+3                                                                                             
+             106          107          108          109          110          111          112
+2                                                                                             
+3                                                                                             
+             113          114          115          116          117          118          119
+2                                                                                             
+3                                                                                             
+             120          121          122          123          124          125          126
+2                                                                                             
+3                                                                                             
+             127          128          129          130          131          132          133
+2                                                                                             
+3                                                                                             
+             134          135          136          137          138          139          140
+2                                                                                             
+3                                                                                             
+             141          142          143          144          145          146          147
+2                                                                                             
+3                                                                                             
+             148          149          150          151          152          153          154
+2                                                                                             
+3                                                                                             
+             155          156          157          158          159          160          161
+2                                                                                             
+3                                                                                             
+             162          163          164          165          166          167          168
+2                                                                                             
+3                                                                                             
+             169          170          171          172          173          174          175
+2                                                                                             
+3                                                                                             
+             176          177          178          179          180          181          182
+2                                                                                             
+3                                                                                             
+             183          184          185          186          187          188          189
+2                                                                                             
+3                                                                                             
+             190          191          192          193          194          195          196
+2                                                                                             
+3                                                                                             
+             197          198          199          200          201          202          203
+2                                                                                             
+3                                                                                             
+             204          205          206          207          208          209          210
+2                                                                                             
+3                                                                                             
+             211          212          213          214          215          216          217
+2                                                                                             
+3                                                                                             
+             218          219          220          221          222          223          224
+2                                                                                             
+3                                                                                             
+             225          226          227          228          229          230          231
+2                                                                                             
+3                                                                                             
+             232          233          234          235          236          237          238
+2                                                                                             
+3                                                                                             
+             239          240          241          242          243          244          245
+2                                                                                             
+3                                                                                             
+             246          247          248          249          250          251          252
+2                                                                                             
+3                                                                                             
+             253          254          255          256          257          258          259
+2                                                                                             
+3                                                                                             
+             260          261          262          263          264          265          266
+2                                                                                             
+3                                                                                             
+             267          268          269          270          271          272          273
+2                                                                                             
+3                                                                                             
+             274          275          276          277          278          279          280
+2                                                                                             
+3                                                                                             
+             281          282          283          284          285          286          287
+2                                                                                             
+3                                                                                             
+             288          289          290          291          292          293          294
+2                                                                                             
+3                                                                                             
+             295          296          297          298          299          300          301
+2                                                                                             
+3                                                                                             
+             302          303          304          305          306          307          308
+2                                                                                             
+3                                                                                             
+             309          310          311          312          313          314          315
+2                                                                                             
+3                                                                                             
+             316          317          318          319          320          321          322
+2                                                                                             
+3                                                                                             
+             323          324          325          326          327          328          329
+2                                                                                             
+3                                                                                             
+             330          331          332          333          334          335          336
+2                                                                                             
+3                                                                                             
+             337          338          339          340          341          342          343
+2                                                                                             
+3                                                                                             
+             344          345          346
+2                                         
+3                                         
+ [ reached getOption("max.print") -- omitted 344 rows ]
+
+| Keep trying! Or, type info() for more options.
+
+| Type hclustering <- hclust(mdist) the command prompt.
+
+> hclustering <- hclust(mdist)
+
+| You are doing so well!
+
+  |=======================================                                                                 |  38%
+| Now call the pretty plotting function (which we've already sourced) myplclust with 2 arguments.
+| The first is hclustering, and the second is the argument lab.col set equal to
+| unclass(sub1$activity).
+
+> myplclust(hclustering,lab.col = unclass(sub1$activity))
+
+| You are really on a roll!
+
+  |=========================================                                                               |  39%
+| Well that dendrogram doesn't look too helpful, does it? There's no clear grouping of colors,
+| except that active colors (blues and magenta) are near each other as are the passive (black, red,
+| and green). So average acceleration doesn't tell us much. How about maximum acceleration? Let's
+| look at that for the first subject (in our array sub1) for the X and Y dimensions. These are in
+| column 10 and 11.
+
+...
+
+  |==========================================                                                              |  41%
+| Here they are plotted side by side, X dimension on the left and Y on the right. The x-axis of
+| each show the 300+ observations and the y-axis indicates the maximum acceleration.
+
+...
+
+  |============================================                                                            |  42%
+| From the 2 plots, what separation, if any, do you see?
+
+1: passive activities mostly fall below the walking activities
+2: there is no pattern
+3: laying generates the most acceleration in the X dimension
+4: passive activities generate the most acceleration
+
+Selection: 1
+
+| You are quite good my friend!
+
+  |==============================================                                                          |  44%
+| Finally we're seeing something vaguely interesting! Let's focus then on the 3 dimensions of
+| maximum acceleration, stored in columns 10 through 12 of sub1. Create a new distance matrix,
+| mdist, of these 3 columns of sub1, by using the R command dist. Again, use the x[,10:12] notation
+| to catch the columns.
+
+> myplclust(hclustering,lab.col = unclass(sub1$activity))
+
+| Not quite right, but keep trying. Or, type info() for more options.
+
+| Type mdist <- dist(sub1[,10:12]) the command prompt.
+
+> mdist <- dist(sub1[,10:12]) 
+
+| You're the best!
+
+  |===============================================                                                         |  45%
+| Now create the variable hclustering by calling hclust with mdist as the argument.
+
+> hclustering <- hclust(mdist)
+
+| You got it right!
+
+  |=================================================                                                       |  47%
+| Again, call the myplclust with 2 arguments. The first is hclustering, and the second is the
+| argument lab.col set equal to unclass(sub1$activity).
+
+> myplclust(hclustering,lab.col = unclass(sub1$activity))
+
+| You're the best!
+
+  |==================================================                                                      |  48%
+| Now we see clearly that the data splits into 2 clusters, active and passive activities. Moreover,
+| the light blue (walking down) is clearly distinct from the other walking activities. The dark
+| blue (walking level) also seems to be somewhat clustered. The passive activities, however, seem
+| all jumbled together with no clear pattern visible.
+
+...
+
+  |====================================================                                                    |  50%
+| Let's try some SVD now. Create the variable svd1 by assigning to it the output of a call to the R
+| command svd. The argument to svd should be scale(sub1[,-c(562,563)]). This will remove the last 2
+| columns from sub1 and scale the data. Recall that the last 2 columns contain activity and subject
+| information which we won't need.
+
+> 
+> myplclust(hclustering,lab.col = unclass(sub1$activity))
+
+| Keep trying! Or, type info() for more options.
+
+| Type svd1 <- svd(scale(sub1[,-c(562,563)])) the command prompt.
+
+> svd1 <- svd(scale(sub1[,-c(562,563)]))
+
+| That's correct!
+
+  |======================================================                                                  |  52%
+| To see LEFT singular vectors of sub1, which component of svd1 would we examine?
+
+1: v
+2: u
+3: x
+4: d
+
+Selection: 3
+
+| Not exactly. Give it another go.
+
+| One of the choices isn't even part of the svd output. Recall that singular value decomposition
+| expresses the matrix X as the product of three other matrices, X=UDV. Which of these is leftmost?
+
+1: d
+2: v
+3: u
+4: x
+
+Selection: 3
+
+| Great job!
+
+  |=======================================================                                                 |  53%
+| Call the R command dim with svd1$u as an argument.
+
+> dim(svd1$u)
+[1] 347 347
+
+| You are really on a roll!
+
+  |=========================================================                                               |  55%
+| We see that the u matrix is a 347 by 347 matrix. Each row in u corresponds to a row in the matrix
+| sub1. Recall that in sub1 each row has an associated activity.
+
+...
+
+  |==========================================================                                              |  56%
+| Here we're looking at the 2 left singular vectors of svd1 (the first 2 columns of svd1$u). Each
+| entry of the columns belongs to a particular row with one of the 6 activities assigned to it. We
+| see the activities distinguished by color. Moving from left to right, the first section of rows
+| are green (standing), the second red (sitting), the third black (laying), etc.  The first column
+| of u shows separation of the nonmoving (black, red, and green) from the walking activities. The
+| second column is harder to interpret. However, the magenta cluster, which represents walking up,
+| seems separate from the others.
+
+...
+
+  |============================================================                                            |  58%
+| We'll try to figure out why that is. To do that we'll have to find which of the 500+ measurements
+| (represented by the columns of sub1) contributes to the variation of that component. Since we're
+| interested in sub1 columns, we'll look at the RIGHT singular vectors (the columns of svd1$v), and
+| in particular, the second one since the separation of the magenta cluster stood out in the second
+| column of svd1$u.
+
+...
+
+  |==============================================================                                          |  59%
+| Here's a plot of the second column of svd1$v. We used transparency in our plotting but nothing
+| clearly stands out here. Let's use clustering to find the feature (out of the 500+) which
+| contributes the most to the variation of this second column of svd1$v.
+
+...
+
+  |===============================================================                                         |  61%
+| Create the variable maxCon by assigning to it the output of the R command which.max using the
+| second column of svd1$v as an argument.
+
+> maxCon <- which.max(svd1$v)
+
+| Give it another try. Or, type info() for more options.
+
+| Type maxCon <- which.max(svd1$v[,2]) at the command prompt.
+
+> maxCon <- which.max(svd1$v[,2])
+
+| All that practice is paying off!
+
+  |=================================================================                                       |  62%
+| Now create a distance matrix mdist by assigning to it the output of the R command dist using 4
+| columns of sub1 as the arguments. These 4 columns are 10 through 12 (10:12) and maxCon. Recall
+| that you'll have to concatenate these 2 column expressions when specifying them.
+
+> maxCon <- which.max(svd1$v[,2])
+
+| Not quite, but you're learning! Try again. Or, type info() for more options.
+
+| Type mdist <- dist(sub1[,c(10:12,maxCon)]) at the command prompt.
+
+> mdist <- dist(sub1[,c(10:12,maxCon)])
+
+| You got it!
+
+  |===================================================================                                     |  64%
+| Now create hclustering, the output of the R command hclust using mdist as the argument.
+
+> hclustering <- hclust(mdist)
+
+| You're the best!
+
+  |====================================================================                                    |  66%
+| Call the myplclust with 2 arguments, hclustering, and lab.col set equal to
+| unclass(sub1$activity).
+
+> 
+> myplclust(hclustering,lab.col = unclass(sub1$activity))
+
+| You got it!
+
+  |======================================================================                                  |  67%
+| Now we see some real separation. Magenta (walking up) is on the far left, and the two other
+| walking activities, the two blues, are on the far right, but in separate clusters from one
+| another. The nonmoving activities still are jumbled together.
+
+...
+
+  |========================================================================                                |  69%
+| Run the R command names with the argument sub1[maxCon] to see what measurement is associated with
+| this maximum contributor.
+
+> names(sub1[maxCon])
+[1] "fBodyAcc.meanFreq...Z"
+
+| You nailed it! Good job!
+
+  |=========================================================================                               |  70%
+| So the mean body acceleration in the frequency domain in the Z direction is the main contributor
+| to this clustering phenomenon we're seeing. Let's move on to k-means clustering to see if this
+| technique can distinguish between the activities.
+
+...
+
+  |===========================================================================                             |  72%
+| Create the variable kClust by assigning to it the output of the R command kmeans with 2
+| arguments. The first is sub1 with the last 2 columns removed. (Recall these don't have pertinent
+| information for clustering analysis.) The second argument to kmeans is centers set equal to 6,
+| the number of activities we know we have.
+
+> names(sub1[maxCon])
+[1] "fBodyAcc.meanFreq...Z"
+
+| Not quite right, but keep trying. Or, type info() for more options.
+
+| Type kClust <- kmeans(sub1[, -c(562, 563)], centers = 6) the command prompt.
+
+> kClust <- kmeans(sub1[, -c(562, 563)], centers = 6)
+
+| You're the best!
+
+  |============================================================================                            |  73%
+| Recall that without specifying coordinates for the cluster centroids (as we did), kmeans will
+| generate starting points randomly. Here we did only 1 random start (the default). To see the
+| output, run the R command table with 2 arguments. The first is kClust$cluster (part of the output
+| from kmeans), and the second is sub1$activity.
+
+> kClust <- kmeans(sub1[, -c(562, 563)], centers = 6)
+
+| Not quite, but you're learning! Try again. Or, type info() for more options.
+
+| Type table(kClust$cluster, sub1$activity) the command prompt.
+
+> table(kClust$cluster,sub1$activity)
+   
+    laying sitting standing walk walkdown walkup
+  1      0       0        0   95       49      0
+  2      9       2        0    0        0      0
+  3     14      11        3    0        0      0
+  4      0      34       50    0        0      0
+  5     27       0        0    0        0      0
+  6      0       0        0    0        0     53
+
+| Keep working like that and you'll get there!
+
+  |==============================================================================                          |  75%
+| Your exact output will depend on the state of your random number generator. We notice that when we just run with 1 random
+| start, the clusters tend to group the nonmoving activities together in one cluster. The walking activities seem to cluster
+| individually by themselves. You could run the call to kmeans with one random start again and you'll probably get a slightly
+| different result, but....
+
+...
+
+  |================================================================================                        |  77%
+| ... instead call kmeans with 3 arguments, the last of which will tell it to try more random starts and return the best
+| one. The first 2 arguments should be the same as before (sub1 with the last 2 columns removed and centers set equal to
+| 6). The third is nstart set equal to 100. Put the result in kClust again.
+
+> table(kClust$cluster,sub1$activity)
+   
+    laying sitting standing walk walkdown walkup
+  1      0       0        0   95       49      0
+  2      9       2        0    0        0      0
+  3     14      11        3    0        0      0
+  4      0      34       50    0        0      0
+  5     27       0        0    0        0      0
+  6      0       0        0    0        0     53
+
+| Not exactly. Give it another go. Or, type info() for more options.
+
+| Type kClust <- kmeans(sub1[, -c(562, 563)], centers = 6, nstart=100) the command prompt.
+
+> kClust <- kmeans(sub1[, -c(562, 563)], centers = 6, nstart=100)
+
+| Perseverance, that's the answer.
+
+  |=================================================================================                       |  78%
+| Again, run the R command table with 2 arguments. The first is kClust$cluster (part of the output from kmeans), and the
+| second is sub1$activity.
+
+> table(kClust$cluster,sub1$activity)
+   
+    laying sitting standing walk walkdown walkup
+  1     29       0        0    0        0      0
+  2     18      10        2    0        0      0
+  3      0       0        0   95        0      0
+  4      0      37       51    0        0      0
+  5      0       0        0    0       49      0
+  6      3       0        0    0        0     53
+
+| Nice work!
+
+  |===================================================================================                     |  80%
+| We see that even with 100 random starts, the passive activities tend to cluster together. One of the clusters contains
+| only laying, but in another cluster, standing and sitting group together.
+
+...
+
+  |====================================================================================                    |  81%
+| Use dim to find the dimensions of kClust's centers. Use the x$y notation to access them.
+
+> dim(x$y)
+Error in x$y : $ operator is invalid for atomic vectors
+> dim(x)
+NULL
+
+| You almost had it, but not quite. Try again. Or, type info() for more options.
+
+| Type dim(kClust$centers) the command prompt.
+
+> dim(kClust$centers)
+[1]   6 561
+
+| All that hard work is paying off!
+
+  |======================================================================================                  |  83%
+| So the centers are a 6 by 561 array. Sometimes it's a good idea to look at the features (columns) of these centers to
+| see if any dominate.
+
+...
+
+  |========================================================================================                |  84%
+| Create the variable laying and assign to it the output of the call to the R command which with the argument
+| kClust$size==29.
+
+> dim(kClust$centers)
+[1]   6 561
+
+| Nice try, but that's not exactly what I was hoping for. Try again. Or, type info() for more options.
+
+| Type laying <- which(kClust$size==29) the command prompt.
+
+> laying <= which(kClust$size == 29)
+Error: object 'laying' not found
+> laying <- which(kClust$size == 29)
+
+| Excellent work!
+
+  |=========================================================================================               |  86%
+| Now call plot with 3 arguments. The first is kClust$centers[laying,1:12], and the second is pch set to 19. The third is
+| ylab set equal to "Laying Cluster"
+
+> laying <- which(kClust$size == 29)
+
+| Keep trying! Or, type info() for more options.
+
+| Type plot(kClust$centers[laying, 1:12],pch=19,ylab="Laying Cluster") the command prompt.
+
+> plot(kClust$centers[laying, 1:12],pch=19,ylab="Laying Cluster")
+
+| That's a job well done!
+
+  |===========================================================================================             |  88%
+| We see the first 3 columns dominate this cluster center. Run names with the first 3 columns of sub1 as the argument to
+| remind yourself of what these columns contain.
+
+> plot(kClust$centers[laying, 1:12],pch=19,ylab="Laying Cluster")
+
+| Not quite! Try again. Or, type info() for more options.
+
+| Type names(sub1[,1:3]) the command prompt.
+
+> names(sub1[,1:3])
+[1] "tBodyAcc.mean...X" "tBodyAcc.mean...Y" "tBodyAcc.mean...Z"
+
+| That's correct!
+
+  |=============================================================================================           |  89%
+| So the 3 directions of mean body acceleration seem to have the biggest effect on laying.
+
+...names(sub1[,1:5])
+
+  |==============================================================================================          |  91%
+| Create the variable walkdown and assign to it the output of the call to the R command which with the argument
+| kClust$size==49.
+
+> names(sub1[,1:3])
+[1] "tBodyAcc.mean...X" "tBodyAcc.mean...Y" "tBodyAcc.mean...Z"
+
+| Keep trying! Or, type info() for more options.
+
+| Type walkdown <- which(kClust$size==49) the command prompt.
+
+> names(sub1[,1:5])
+[1] "tBodyAcc.mean...X" "tBodyAcc.mean...Y" "tBodyAcc.mean...Z" "tBodyAcc.std...X"  "tBodyAcc.std...Y" 
+
+| Not quite right, but keep trying. Or, type info() for more options.
+
+| Type walkdown <- which(kClust$size==49) the command prompt.
+
+> walkdown <- which(kClust$size==49) 
+
+| You nailed it! Good job!
+
+  |================================================================================================        |  92%
+| Now call plot with 3 arguments. The first is kClust$centers[walkdown,1:12], and the second is pch set to 19. The third
+| is ylab set equal to "Walkdown Cluster"
+
+> 
+> plot(kClust$centers[walkdown, 1:12],pch=19,ylab="walkdown Cluster")
+
+| One more time. You can do it! Or, type info() for more options.
+
+| Type plot(kClust$centers[walkdown, 1:12],pch=19,ylab="Walkdown Cluster") the command prompt.
+
+> plot(kClust$centers[walkdown, 1:12],pch=19,ylab="Walkdown Cluster")
+
+| You nailed it! Good job!
+
+  |==================================================================================================      |  94%
+| We see an interesting pattern here. From left to right, looking at the 12 acceleration measurements in groups of 3, the
+| points decrease in value. The X direction dominates, followed by Y then Z. This might tell us something more about the
+| walking down activity.
+
+...
+
+  |===================================================================================================     |  95%
+| We'll wrap up here and hope this example convinced you that real world analysis can be frustrating sometimes and not
+| always obvious. You might have to try several techniques of exploratory data analysis before you hit one that pays off
+| and leads you to the questioms that will be the most promising to explore.
+
+...
+
+  |=====================================================================================================   |  97%
+| We saw here that the sensor measurements were pretty good at discriminating between the 3 walking activities, but the
+| passive activities were harder to distinguish from one another. These might require more analysis or an entirely
+| different set of sensory measurements.
+
+...
+
+  |======================================================================================================  |  98%
+| Congratulations! We hope you enjoyed the 6 activities and 500+ features of this lesson.
+
+...
+
+  |========================================================================================================| 100%
+| Would you like to receive credit for completing this course on Coursera.org?
+
+1: Yes
+2: No
+
+Selection: 1
+What is your email address? dhyaneshbabu@gmail.com
+What is your assignment token? 4rPWtZ2Ju0PkwWbF
+Grade submission succeeded!
+
+| Excellent work!
+
+| You've reached the end of this lesson! Returning to the main menu...
+
+| Please choose a course, or type 0 to exit swirl.
+
+1: Exploratory Data Analysis
+2: Take me to the swirl course repository!

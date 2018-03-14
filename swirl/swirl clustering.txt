@@ -1,0 +1,30 @@
+ |============                                                                               |  13%
+| It's pretty obvious that out of the 4 choices, the pair 5 and 6 were the closest together.
+| However, there are several ways to measure distance or similarity. Euclidean distance and
+| correlation similarity are continuous measures, while Manhattan distance is a binary measure. In
+| this lesson we'll just briefly discuss the first and last of these. It's important that you use a
+| measure of distance that fits your problem.
+=====================================================================================================================
+  |================                                                                           |  18%
+| Euclidean distance is distance "as the crow flies". Many applications, however, can't
+| realistically use crow-flying distance. Cars, for instance, have to follow roads.
+
+...
+
+  |==================                                                                         |  19%
+| In this case, we can use Manhattan or city block distance (also known as a taxicab metric). This
+| picture, copied from http://en.wikipedia.org/wiki/Taxicab_geometry, shows what this means.
+
+============================================================================================================================
+| K_Means_Clustering. (Slides for this and other Data Science courses may be found at github
+| https://github.com/DataScienceSpecialization/courses/. If you care to use them, they must be
+| downloaded as a zip file and viewed locally. This lesson corresponds to
+| 04_ExploratoryAnalysis/kmeansClustering.)
+
+...
+
+  |==                                                                                         |   2%
+| In this lesson we'll learn about k-means clustering, another simple way of examining and
+| organizing multi-dimensional data. As with hierarchical clustering, this technique is most useful
+| in the early stages of analysis when you're trying to get an understanding of the data, e.g.,
+| finding some pattern or relationship between different factors or variables.
