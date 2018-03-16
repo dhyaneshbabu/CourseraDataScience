@@ -1,90 +1,91 @@
 ##This code book summarizes the resulting data fields in tidy_data.txt.
 #Identifiers
 
-    subject - The ID of the test subject
+    subject - Test subject ID
     activity - The type of activity performed when the corresponding measurements were taken
 
 Measurements
 
-    tBodyAccMeanX
-    tBodyAccMeanY
-    tBodyAccMeanZ
-    tBodyAccStdX
-    tBodyAccStdY
-    tBodyAccStdZ
-    tGravityAccMeanX
-    tGravityAccMeanY
-    tGravityAccMeanZ
-    tGravityAccStdX
-    tGravityAccStdY
-    tGravityAccStdZ
-    tBodyAccJerkMeanX
-    tBodyAccJerkMeanY
-    tBodyAccJerkMeanZ
-    tBodyAccJerkStdX
-    tBodyAccJerkStdY
-    tBodyAccJerkStdZ
-    tBodyGyroMeanX
-    tBodyGyroMeanY
-    tBodyGyroMeanZ
-    tBodyGyroStdX
-    tBodyGyroStdY
-    tBodyGyroStdZ
-    tBodyGyroJerkMeanX
-    tBodyGyroJerkMeanY
-    tBodyGyroJerkMeanZ
-    tBodyGyroJerkStdX
-    tBodyGyroJerkStdY
-    tBodyGyroJerkStdZ
-    tBodyAccMagMean
-    tBodyAccMagStd
-    tGravityAccMagMean
-    tGravityAccMagStd
-    tBodyAccJerkMagMean
-    tBodyAccJerkMagStd
-    tBodyGyroMagMean
-    tBodyGyroMagStd
-    tBodyGyroJerkMagMean
-    tBodyGyroJerkMagStd
-    fBodyAccMeanX
-    fBodyAccMeanY
-    fBodyAccMeanZ
-    fBodyAccStdX
-    fBodyAccStdY
-    fBodyAccStdZ
-    fBodyAccMeanFreqX
-    fBodyAccMeanFreqY
-    fBodyAccMeanFreqZ
-    fBodyAccJerkMeanX
-    fBodyAccJerkMeanY
-    fBodyAccJerkMeanZ
-    fBodyAccJerkStdX
-    fBodyAccJerkStdY
-    fBodyAccJerkStdZ
-    fBodyAccJerkMeanFreqX
-    fBodyAccJerkMeanFreqY
-    fBodyAccJerkMeanFreqZ
-    fBodyGyroMeanX
-    fBodyGyroMeanY
-    fBodyGyroMeanZ
-    fBodyGyroStdX
-    fBodyGyroStdY
-    fBodyGyroStdZ
-    fBodyGyroMeanFreqX
-    fBodyGyroMeanFreqY
-    fBodyGyroMeanFreqZ
-    fBodyAccMagMean
-    fBodyAccMagStd
-    fBodyAccMagMeanFreq
-    fBodyBodyAccJerkMagMean
-    fBodyBodyAccJerkMagStd
-    fBodyBodyAccJerkMagMeanFreq
-    fBodyBodyGyroMagMean
-    fBodyBodyGyroMagStd
-    fBodyBodyGyroMagMeanFreq
-    fBodyBodyGyroJerkMagMean
-    fBodyBodyGyroJerkMagStd
-    fBodyBodyGyroJerkMagMeanFreq
+tBodyAccelerometerMeanX	
+tBodyAccelerometerMeanY
+tBodyAccelerometerMeanZ
+tBodyAccelerometerStandardDeviationX
+tBodyAccelerometerStandardDeviationY
+tBodyAccelerometerStandardDeviationZ
+tGravityAccelerometerMeanX	
+tGravityAccelerometerMeanY	
+tGravityAccelerometerMeanZ
+tGravityAccelerometerStandardDeviationX	
+tGravityAccelerometerStandardDeviationY	
+tGravityAccelerometerStandardDeviationZ	
+tBodyAccelerometerJerkMeanX	
+tBodyAccelerometerJerkMeanY	
+tBodyAccelerometerJerkMeanZ
+tBodyAccelerometerJerkStandardDeviationX
+tBodyAccelerometerJerkStandardDeviationY
+tBodyAccelerometerJerkStandardDeviationZ
+tBodyGyroscopeMeanX	
+tBodyGyroscopeMeanY	
+tBodyGyroscopeMeanZ
+tBodyGyroscopeStandardDeviationX
+tBodyGyroscopeStandardDeviationY
+tBodyGyroscopeStandardDeviationZ	
+tBodyGyroscopeJerkMeanX
+tBodyGyroscopeJerkMeanY	
+tBodyGyroscopeJerkMeanZ
+tBodyGyroscopeJerkStandardDeviationX
+tBodyGyroscopeJerkStandardDeviationY
+tBodyGyroscopeJerkStandardDeviationZ
+tBodyAccelerometerMagnitudeMean
+tBodyAccelerometerMagnitudeStandardDeviation
+tGravityAccelerometerMagnitudeMean
+tGravityAccelerometerMagnitudeStandardDeviation
+tBodyAccelerometerJerkMagnitudeMean
+tBodyAccelerometerJerkMagnitudeStandardDeviation
+tBodyGyroscopeMagnitudeMean
+tBodyGyroscopeMagnitudeStandardDeviation
+tBodyGyroscopeJerkMagnitudeMean
+tBodyGyroscopeJerkMagnitudeStandardDeviation
+fBodyAccelerometerMeanX	
+fBodyAccelerometerMeanY	
+fBodyAccelerometerMeanZ	
+fBodyAccelerometerStandardDeviationX
+fBodyAccelerometerStandardDeviationY
+fBodyAccelerometerStandardDeviationZ
+fBodyAccelerometerMeanFrequencyX
+fBodyAccelerometerMeanFrequencyY	
+fBodyAccelerometerMeanFrequencyZ	
+fBodyAccelerometerJerkMeanX	
+fBodyAccelerometerJerkMeanY
+fBodyAccelerometerJerkMeanZ	
+fBodyAccelerometerJerkStandardDeviationX
+fBodyAccelerometerJerkStandardDeviationY
+fBodyAccelerometerJerkStandardDeviationZ
+fBodyAccelerometerJerkMeanFrequencyX	
+fBodyAccelerometerJerkMeanFrequencyY
+fBodyAccelerometerJerkMeanFrequencyZ
+fBodyGyroscopeMeanX	
+fBodyGyroscopeMeanY	
+fBodyGyroscopeMeanZ
+fBodyGyroscopeStandardDeviationX
+fBodyGyroscopeStandardDeviationY
+fBodyGyroscopeStandardDeviationZ
+fBodyGyroscopeMeanFrequencyX
+fBodyGyroscopeMeanFrequencyY
+fBodyGyroscopeMeanFrequencyZ
+fBodyAccelerometerMagnitudeMean
+fBodyAccelerometerMagnitudeStandardDeviation
+fBodyAccelerometerMagnitudeMeanFrequency
+fBodyBodyAccelerometerJerkMagnitudeMean
+fBodyBodyAccelerometerJerkMagnitudeStandardDeviation
+fBodyBodyAccelerometerJerkMagnitudeMeanFrequency
+fBodyBodyGyroscopeMagnitudeMean	
+fBodyBodyGyroscopeMagnitudeStandardDeviation
+fBodyBodyGyroscopeMagnitudeMeanFrequency
+fBodyBodyGyroscopeJerkMagnitudeMean	
+fBodyBodyGyroscopeJerkMagnitudeStandardDeviation
+fBodyBodyGyroscopeJerkMagnitudeMeanFrequency
+
 
 # Activity Labels
 
