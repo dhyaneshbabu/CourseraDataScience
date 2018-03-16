@@ -1,0 +1,18 @@
+this_day <- today()
+
+> year()
+
+> year(this_day)
+my_date <- ymd("1989-05-17")
+ymd("1989-05-17")
+mdy("March 12, 1975")
+this_moment
+
+> now("America/New_York")
+
+
+> nyc <- now("America/New_York")
+
+
+depart <- update(depart, hours = 17, minutes = 34)
+
