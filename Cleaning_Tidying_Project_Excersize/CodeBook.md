@@ -1,10 +1,11 @@
-##This code book summarizes the resulting data fields in tidy_data.txt.
-#Identifiers
+## This code book summarizes the resulting data fields in tidy_data.txt.
+
+# Identifiers
 
     subject - Test subject ID
     activity - The type of activity performed when the corresponding measurements were taken
 
-Measurements
+# Measurements
 
 * tBodyAccelerometerMeanX	
 * tBodyAccelerometerMeanY
