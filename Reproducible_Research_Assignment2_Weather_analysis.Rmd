@@ -1,0 +1,140 @@
+---
+title: "Weather Data Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Title - Analysis of weather data
+
+#Synopsis - Analysis of weather data
+
+The basic goal of this analysis  is to explore the NOAA Storm Database and find which event causes most fatalities and economic diamages to the population.
+
+The data is analysed across the united states.
+
+#About the data source
+
+ Here the data comes from the NOAA Storm Database. The data comes in the form of a comma-separated-value file compressed via the bzip2 algorithm to reduce its size.
+ 
+ The data downloaded from the link
+ 
+ https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2
+ 
+ There is also some documentation of the database available. Here you will find how some of the variables are constructed/defined. 
+ 
+ https://d396qusza40orc.cloudfront.net/repdata%2Fpeer2_doc%2Fpd01016005curr.pdf
+
+The events in the database start in the year 1950 and end in November 2011. In the earlier years of the database there are generally fewer events recorded, most likely due to a lack of good records. More recent years should be considered more complete.
+
+#Data processing
+
+Here the .csv file is downloaded from the location. Few Fields are cleaned and some are mutated according.
+
+
+```{r}
+library(ggplot2)
+library(scales)
+library(Hmisc)
+library(dplyr)
+
+# Load the data file into a data frame
+weather_Data <- read.csv("repdata_data_StormData.csv", as.is = TRUE)
+str(weather_Data)
+#head(weather_Data)
+
+```
+
+# Question 1
+  Across the United States, which types of events (as indicated in the EVTYPE variable) are most harmful with respect to population health?
+
+```{r}
+
+weather_filtered_Data = weather_Data[, c("STATE", "EVTYPE", "FATALITIES", "INJURIES")]
+head(weather_filtered_Data)
+
+groupedData=group_by(weather_filtered_Data, EVTYPE)
+weather_aggregated_Data=summarize(groupedData, total_Fatal=sum(FATALITIES, na.rm = TRUE), total_Injury=sum(INJURIES, na.rm = TRUE))
+
+fatal_Data=weather_aggregated_Data[, c("EVTYPE", "total_Fatal")]
+injury_Data=weather_aggregated_Data[, c("EVTYPE", "total_Injury")]
+
+fatal_Ordered=arrange(fatal_Data, desc(total_Fatal))
+injury_Ordered=arrange(injury_Data, desc(total_Injury))
+
+top_10_fatal = fatal_Ordered[1:10,]
+top_10_injury = injury_Ordered[1:10,]
+
+fatalplot=ggplot(data = top_10_fatal, aes(x=reorder(EVTYPE, -total_Fatal), y=total_Fatal)) +
+    geom_bar(stat = "identity", fill="Green")+
+    xlab("Event Type") + ylab("Fatalities") + 
+    ggtitle("top 10 Fatal Weather Events")
+fatalplot
+
+```
+```{r}
+
+Injury_plot=ggplot(data = top_10_injury, aes(x=reorder(EVTYPE, -total_Injury), y=total_Injury)) +
+    geom_bar(stat = "identity", fill="Blue")+
+    xlab("Event Type") + ylab("Injuries") + 
+    ggtitle("top 10 Injuries  Weather Events")
+Injury_plot
+
+```
+
+#Result 1
+
+Tornado is the most harmful event on population health (including injury and fatalities).
+
+
+#Question 2:
+
+Across the United States, which types of events have the greatest economic consequences?
+
+```{r}
+economic_Data = weather_Data[ , c("EVTYPE", "PROPDMG", "PROPDMGEXP",  'CROPDMG', 'CROPDMGEXP')]
+
+#to replace the M with millions and B with Billions etc
+economic_Data$PROPDMGSU = 0
+economic_Data[economic_Data$PROPDMGEXP == "H", ]$PROPDMGSU = economic_Data[economic_Data$PROPDMGEXP == "H", ]$PROPDMG * 10^2
+economic_Data[economic_Data$PROPDMGEXP == "K", ]$PROPDMGSU = economic_Data[economic_Data$PROPDMGEXP == "K", ]$PROPDMG * 10^3
+economic_Data[economic_Data$PROPDMGEXP == "M", ]$PROPDMGSU = economic_Data[economic_Data$PROPDMGEXP == "M", ]$PROPDMG * 10^6
+economic_Data[economic_Data$PROPDMGEXP == "B", ]$PROPDMGSU = economic_Data[economic_Data$PROPDMGEXP == "B", ]$PROPDMG * 10^9
+
+economic_Data$CROPDMGSU = 0
+economic_Data[economic_Data$CROPDMGEXP == "H", ]$CROPDMGSU = economic_Data[economic_Data$CROPDMGEXP == "H", ]$CROPDMG * 10^2
+economic_Data[economic_Data$CROPDMGEXP == "K", ]$CROPDMGSU = economic_Data[economic_Data$CROPDMGEXP == "K", ]$CROPDMG * 10^3
+economic_Data[economic_Data$CROPDMGEXP == "M", ]$CROPDMGSU = economic_Data[economic_Data$CROPDMGEXP == "M", ]$CROPDMG * 10^6
+economic_Data[economic_Data$CROPDMGEXP == "B", ]$CROPDMGSU = economic_Data[economic_Data$CROPDMGEXP == "B", ]$CROPDMG * 10^9
+
+summary(economic_Data)
+
+```
+
+plot the graph
+
+```{r}
+
+
+total_Damage = mutate(economic_Data, total_Damage=PROPDMGSU + CROPDMGSU)
+total_Damage = total_Damage[, c("EVTYPE", "total_Damage")]
+grouped_total_Damage=group_by(total_Damage, EVTYPE)
+aggregate_grouped_total_Damage=summarize(grouped_total_Damage, Dmg=sum(total_Damage, na.rm = TRUE))
+ordered_data = arrange(aggregate_grouped_total_Damage, desc(Dmg))
+#plot the top 10 event types that cause most damages
+top_10 = ordered_data[1:10, ]
+dmgPlot=ggplot(data = top_10, aes(x=reorder(EVTYPE, -Dmg), y=Dmg)) +
+    geom_bar(stat = "identity", fill="black")+
+    xlab("Event Type") + ylab("Total Damage") + 
+    ggtitle("Total Damage by top 10 Weather Events") 
+dmgPlot
+
+```
+
+#Result 2: 
+
+Flood causes the greatest economic consequences.
+
+
+
